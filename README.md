@@ -27,4 +27,4 @@ Open `index.html` in a browser, or use VS Code Live Server.
 - Semester 5, B28
 - GitHub: https://github.com/danielgracemiracle-ops
 - LinkedIn: https://www.linkedin.com/in/daniel-miracle-192641326/
-- Email: Danielgracemiracle@gmail.com
+- Email: daniel.miracle@binus.ac.id
