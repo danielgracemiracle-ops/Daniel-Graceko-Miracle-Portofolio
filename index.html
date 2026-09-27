@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daniel Graceko Miracle — Data Science, Machine Learning, AI, and Web Development Portfolio." />
+  <title>Daniel Graceko Miracle | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home">DG<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">DATA SCIENCE • DATA ANALYTICS • MACHINE LEARNING</p>
+        <h1>Hi, I'm <span>Daniel</span>.<br>I turn data into<br><span>insights & models.</span></h1>
+        <p class="hero-text">
+          Data Science student focused on Data Analytics, Machine Learning, and AI.
+          I enjoy turning data into insights, predictive models, and practical digital products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Projects <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Let's Connect</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/danielgracemiracle-ops" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/daniel-miracle-192641326/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="profile-card">
+          <img class="profile-photo" src="profile.jpg" alt="Daniel Graceko Miracle" />
+          <div>
+            <p class="card-label">CAREER FOCUS</p>
+            <h3>Data • ML • AI</h3>
+            <p>Building analytical solutions and machine learning applications.</p>
+          </div>
+          <div class="status"><span></span> Open to Data Science & ML internships</div>
+        </div>
+        <div class="floating-card fc-one">
+          <strong>8</strong>
+          <span>Featured Projects</span>
+        </div>
+        <div class="floating-card fc-two">
+          <strong>ML</strong>
+          <span>Data → Model → Product</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Data-driven thinking.<br><span>Practical problem solving.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Data Science student who enjoys exploring data, finding patterns, and building
+            machine learning solutions that can support real-world decisions.
+          </p>
+          <p>
+            Through university projects, I've worked on data preprocessing, exploratory analysis,
+            classification, time-series forecasting, computer vision, deep learning, and model deployment.
+          </p>
+          <p>
+            I'm currently looking for internship opportunities in Data Science, Data Analytics,
+            Machine Learning, or related roles where I can learn and contribute to real-world projects.
+          </p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat"><strong>08</strong><span>Featured Projects</span></div>
+          <div class="stat"><strong>DS</strong><span>Primary Interest</span></div>
+          <div class="stat"><strong>ML</strong><span>Career Direction</span></div>
+          <div class="stat"><strong>8</strong><span>Portfolio Projects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>Tools I use to<br><span>build & analyze.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">01</div>
+          <h3>Programming</h3>
+          <div class="tags"><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">02</div>
+          <h3>Data & ML</h3>
+          <div class="tags"><span>Machine Learning</span><span>Data Analysis</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">03</div>
+          <h3>Deep Learning</h3>
+          <div class="tags"><span>TensorFlow</span><span>Keras</span><span>CNN</span><span>LSTM</span><span>Computer Vision</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">04</div>
+          <h3>Web & Tools</h3>
+          <div class="tags"><span>Next.js</span><span>FastAPI</span><span>Git</span><span>MLflow</span><span>Figma</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Selected work.</h2>
+        <p class="section-subtitle">Selected work across machine learning, data analytics, deep learning, statistical modeling, and web-based AI applications.</p>
+      </div>
+
+      <div class="filter-bar reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ml">Machine Learning</button>
+        <button class="filter" data-filter="dl">Deep Learning</button>
+        <button class="filter" data-filter="web">Web Development</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal" data-category="ml" data-title="CardioInsight" data-description="AI-powered cardiovascular risk prediction web application. The project combines machine learning classification with a FastAPI prediction service and a Next.js frontend. Users can enter personal, vital-sign, and lifestyle data, receive a risk prediction, and review prediction history." data-tech="Python, Scikit-learn, XGBoost, FastAPI, Next.js" data-github="https://github.com/danielgracemiracle-ops/cardiovescular-app-frontend.git" data-demo="https://cardiovescular-prediction-app.vercel.app/" data-backend="https://huggingface.co/spaces/dantzy1234/cardio-prediction-api/tree/main">
+          <div class="project-number">01</div>
+          <div class="project-top"><span class="project-type">MACHINE LEARNING + WEB</span><span>↗</span></div>
+          <h3>CardioInsight</h3>
+          <p>AI-powered cardiovascular risk prediction application connecting an ML model with an interactive web interface and prediction API.</p>
+          <div class="project-tags"><span>Python</span><span>FastAPI</span><span>Next.js</span><span>ML</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="web" data-title="GameStoB" data-description="A modern game marketplace website designed with a futuristic gaming interface. The project includes product browsing, latest releases, purchase flow, navigation across Home, Products, Purchase, About Us, and Location pages, responsive layouts, interactive UI, and form validation." data-tech="HTML, CSS, JavaScript, Figma, Responsive Web Design" data-github="https://github.com/danielgracemiracle-ops/GameStob-app.git" data-demo="https://game-stob-app.vercel.app/">
+          <div class="project-number">02</div>
+          <div class="project-top"><span class="project-type">WEB DEVELOPMENT + UI/UX</span><span>↗</span></div>
+          <h3>GameStoB</h3>
+          <p>Modern game marketplace website with product browsing, purchase flow, responsive design, and interactive gaming-themed UI.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="ml" data-title="Credit Score Prediction" data-description="A machine learning project for credit score classification. The workflow includes data preprocessing, feature engineering, model training, comparison of Random Forest and XGBoost, feature importance analysis, evaluation, and MLflow experiment tracking." data-tech="Python, Pandas, Scikit-learn, Random Forest, XGBoost, MLflow" data-github="https://github.com/danielgracemiracle-ops/uas-credit-score-prediction-MD.git" data-demo="https://uas-credit-score-prediction-md-3ahvgbcudwuyor7ygmfglj.streamlit.app/">
+          <div class="project-number">03</div>
+          <div class="project-top"><span class="project-type">MACHINE LEARNING</span><span>↗</span></div>
+          <h3>Credit Score Prediction</h3>
+          <p>Credit score classification using preprocessing, feature engineering, Random Forest, XGBoost, and MLflow experiment tracking.</p>
+          <div class="project-tags"><span>Python</span><span>Random Forest</span><span>XGBoost</span><span>MLflow</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="ml" data-title="Student Health Risk Classification" data-description="Klasifikasi Tingkat Risiko Kesehatan Mahasiswa Berdasarkan Faktor-Faktor Kualitas Tidur Menggunakan Random Forest Classification. The project analyzes sleep-quality-related factors and builds a Random Forest classification model to classify student health risk levels." data-tech="Python, Pandas, Scikit-learn, Random Forest, Matplotlib" data-github="https://github.com/danielgracemiracle-ops/Random-forest-classification-for-sleep-qualities.git">
+          <div class="project-number">04</div>
+          <div class="project-top"><span class="project-type">MACHINE LEARNING • CLASSIFICATION</span><span>↗</span></div>
+          <h3>Student Health Risk Classification</h3>
+          <p>Classification of university students' health risk levels based on sleep-quality factors using Random Forest Classification.</p>
+          <div class="project-tags"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="dl" data-title="GOOGL Stock Price Prediction" data-description="A deep learning time-series forecasting project for GOOGL stock prices using LSTM neural networks. The project compares a baseline LSTM model with an enhanced model and evaluates forecasting performance using RMSE, MAE, and MAPE." data-tech="Python, TensorFlow, Keras, LSTM, Time Series, Pandas, NumPy" data-github="https://github.com/danielgracemiracle-ops/GOOGL-and-INTC-stock-prediction.git">
+          <div class="project-number">05</div>
+          <div class="project-top"><span class="project-type">DEEP LEARNING • LSTM</span><span>↗</span></div>
+          <h3>GOOGL Stock Prediction</h3>
+          <p>LSTM-based time-series forecasting comparing baseline and enhanced models for GOOGL stock prices.</p>
+          <div class="project-tags"><span>LSTM</span><span>TensorFlow</span><span>Time Series</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="dl" data-title="INTC Stock Price Prediction" data-description="A deep learning time-series forecasting project for INTC stock prices using LSTM neural networks. The project compares a baseline model with an enhanced model and evaluates forecasting performance using RMSE, MAE, and MAPE." data-tech="Python, TensorFlow, Keras, LSTM, Time Series, Pandas, NumPy" data-github="https://github.com/danielgracemiracle-ops/GOOGL-and-INTC-stock-prediction.git">
+          <div class="project-number">06</div>
+          <div class="project-top"><span class="project-type">DEEP LEARNING • LSTM</span><span>↗</span></div>
+          <h3>INTC Stock Prediction</h3>
+          <p>LSTM-based time-series forecasting comparing baseline and enhanced models for INTC stock prices.</p>
+          <div class="project-tags"><span>LSTM</span><span>TensorFlow</span><span>Time Series</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="ml" data-title="Bayesian Tsunami Occurrence Prediction" data-description="A statistical machine learning project developed in R to model and predict tsunami occurrence using Bayesian methods. The project applies Bayesian inference to analyze historical tsunami-related data and estimate the probability of tsunami occurrence." data-tech="R, Bayesian Statistics, Statistical Modeling, Data Analysis" data-github="https://github.com/danielgracemiracle-ops/Bayesian-Tsunami-Occurrence-Prediction.git">
+          <div class="project-number">07</div>
+          <div class="project-top"><span class="project-type">STATISTICAL MODELING • BAYESIAN</span><span>↗</span></div>
+          <h3>Bayesian Tsunami Occurrence Prediction</h3>
+          <p>A Bayesian statistical modeling project in R for analyzing tsunami occurrence and estimating occurrence probabilities.</p>
+          <div class="project-tags"><span>R</span><span>Bayesian</span><span>Statistics</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+
+        <article class="project-card reveal" data-category="dl" data-title="TrashNet Classification" data-description="A computer vision project for classifying waste images using the TrashNet dataset and MobileNetV2 transfer learning. The project covers image preprocessing, model training, evaluation, and classification of different waste categories." data-tech="Python, TensorFlow, Keras, MobileNetV2, Computer Vision" data-github="https://github.com/danielgracemiracle-ops/TrashNet-trash-application-app.git" data-demo="https://deep-learning-imageclassif.vercel.app/">
+          <div class="project-number">08</div>
+          <div class="project-top"><span class="project-type">DEEP LEARNING • COMPUTER VISION</span><span>↗</span></div>
+          <h3>TrashNet Classification</h3>
+          <p>Waste image classification using MobileNetV2 transfer learning and the TrashNet dataset.</p>
+          <div class="project-tags"><span>Python</span><span>MobileNetV2</span><span>Computer Vision</span></div>
+          <button class="details-btn">View details</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section workflow">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — WORKFLOW</p>
+        <h2>From raw data<br><span>to useful insight.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="step reveal"><span>01</span><h3>Understand</h3><p>Define the business or research question, available data, and expected outcome.</p></div>
+        <div class="step reveal"><span>02</span><h3>Analyze</h3><p>Explore, clean, visualize, and transform data into meaningful features and insights.</p></div>
+        <div class="step reveal"><span>03</span><h3>Build</h3><p>Train, compare, and tune models or develop data-driven applications.</p></div>
+        <div class="step reveal"><span>04</span><h3>Evaluate</h3><p>Measure performance, interpret results, identify weaknesses, and iterate.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Let's turn data into<br><span>something useful.</span></h2>
+        <p>I'm open to internship opportunities in Data Science, Data Analytics, Machine Learning, AI, and related roles.</p>
+        <div class="contact-actions">
+          <a class="btn secondary" href="https://www.linkedin.com/in/daniel-miracle-192641326/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn secondary" href="https://github.com/danielgracemiracle-ops" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <div class="contact-email">
+          <span>Email</span>
+          <strong>Danielgracemiracle@gmail.com</strong>
+        </div>
+        <small>Daniel Graceko Miracle · Data Science · Bina Nusantara University · Semester 5 · B28</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Daniel Graceko Miracle</span>
+    <span>Designed & built with HTML • CSS • JavaScript</span>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <p class="eyebrow">PROJECT DETAILS</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-tech" id="modalTech"></div>
+      <div class="modal-links" id="modalLinks"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
